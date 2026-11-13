@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Arrays y Bucles</title>
+</head>
+<body>
+
+    <h1>Resultado del Análisis de Números</h1>
+    <div id="resultado">Introduce los números en las ventanas emergentes...</div>
+
+    <script>
+        // 1. Creamos un array vacío para almacenar los números
+        const numeros = [];
+
+        // 2. Usamos un bucle 'for' para pedir los 5 números al usuario
+        for (let i = 1; i <= 5; i++) {
+            let entrada = prompt(`Introduce el número ${i} de 5:`);
+            
+            // Convertimos la entrada de texto a número flotante/decimal
+            let numero = parseFloat(entrada);
+
+            // Validamos que el usuario haya introducido un número válido
+            while (isNaN(numero)) {
+                entrada = prompt(`¡Error! Por favor, introduce un número válido para el valor ${i}:`);
+                numero = parseFloat(entrada);
+            }
+
+            // Guardamos el número en el array
+            numeros.push(numero);
+        }
+
+        // --- CÁLCULOS ---
+
+        // La suma total utilizando el método reduce()
+        const sumaTotal = numeros.reduce((acumulador, actual) => acumulador + actual, 0);
+
+        // La media matemática
+        const media = sumaTotal / numeros.length;
+
+        // El número mayor y menor usando el objeto Math y el operador spread (...)
+        const numeroMayor = Math.max(...numeros);
+        const numeroMenor = Math.min(...numeros);
+
+        // Ordenar los números de menor a mayor
+        // Usamos [...numeros] para crear una copia y no modificar el array original
+        const numerosOrdenados = [...numeros].sort((a, b) => a - b);
+
+        // --- MOSTRAR RESULTADOS ---
+
+        // Construimos el mensaje final para mostrarlo en la página
+        const mensaje = `
+            <p><strong>Números introducidos:</strong> [ ${numeros.join(', ')} ]</p>
+            <ul>
+                <li><strong>Número mayor:</strong> ${numeroMayor}</li>
+                <li><strong>Número menor:</strong> ${numeroMenor}</li>
+                <li><strong>Suma total:</strong> ${sumaTotal}</li>
+                <li><strong>Media:</strong> ${media.toFixed(2)}</li>
+                <li><strong>Ordenados de menor a mayor:</strong> [ ${numerosOrdenados.join(', ')} ]</li>
+            </ul>
+        `;
+
+        // Lo inyectamos en nuestro contenedor HTML
+        document.getElementById('resultado').innerHTML = mensaje;
+    </script>
+
+</body>
+</html>

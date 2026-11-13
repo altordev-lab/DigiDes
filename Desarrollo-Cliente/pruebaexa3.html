@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Arrays y Bucles</title>
+</head>
+<body>
+    <h1 id="3"></h1>
+    <div></div>
+    <script>
+        const lista = [];
+
+        for (let i = 1; i <= 5; i++) {
+            let entrada = prompt(`Introduce el número ${i} de 5:`);
+
+            let numero = parseFloat(entrada);
+
+            while (isNaN(numero)) {
+                entrada = prompt("ERROR");
+                numero = parseFloat(entrada);
+            }
+
+            lista.push(numero);
+        }
+          
+        document.write(lista)
+
+
+    </script>
+</body>

@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Impact, serif;
+    display: flex;
+}
+
+section {
+    background-color: rgb(216, 181, 136);
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 4px solid rgb(143, 28, 28);
+    margin: 20px 0;
+    align-items: left;
+}
+
+tr, footer, p {
+    font-family: sans-serif; 
+}
+
+td:first-child {
+    text-align: left;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+#fecha {
+    font-style: italic;
+}

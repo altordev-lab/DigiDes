@@ -1,0 +1,49 @@
+body { 
+  background-color: #f0f0f0; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+article { 
+  background-color: #fff; 
+  padding: 40px 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 450px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+}
+
+.todo-list { 
+  list-style-type: none; 
+  padding: 0;
+}
+
+.todo-list li { 
+  background-color: #e5f1e5; 
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.todo-list li ul li { 
+  background-color: transparent;
+  list-style-type: square; 
+  padding: 0;
+  margin: 5px 0;
+}
+
+a { text-decoration: none; }
+a { color: red; }
+a:visited { color: green; }
+a:focus { color: pink; }
+a:hover { color: orange; }
+a:active { color: blue; }
+

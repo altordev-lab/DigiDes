@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Examen - Pregunta 1</title>
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Examen de JavaScript</h1> <br>
+    <p id="pa1">Este texto va a ser modificado</p> <br>
+    <p id="pa2">Aquí va el texto que será marcado en amarillo</p> <br>
+    <p id="pa3">Este testo aparece y desaparece</p>
+
+    <button id="btn">Modificar página</button>
+
+    <script>
+
+        // Declaramos las variables tomando los ID de los elementos HTML.
+        var p1 = document.getElementById("pa1");
+        var p2 = document.getElementById("pa2");
+        var p3 = document.getElementById("pa3");
+        const boton = document.getElementById("btn");
+
+        // Creamos un evento escuchador para cuando se de click en el botón.
+        boton.addEventListener("click", () => {
+
+            // Modificamos el texto del primer párrafo
+            p1.innerHTML = "Este texto ha sido modificado con JavaScript.";
+
+            // Cambiamos el color de fondo del texto del segundo párrafo.
+            p2.style.backgroundColor = "yellow";
+
+            // Usamos toggle y hacemos referencia al estilo css de arriba para ocultar el tercer párrafo.
+            p3.classList.toggle("oculto");
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Pepe</title>
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p id="parrafo1">Primero</p>
+    <p id="parrafo2">Segundo</p>
+    <p id="parrafo3">Tercero</p>
+    <button id="btn">Botón</button>
+
+    <script>
+        var p1 = document.getElementById('parrafo1');
+        var p2 = document.getElementById('parrafo2');
+        var p3 = document.getElementById('parrafo3');
+        var boton = document.getElementById('btn');
+
+        boton.addEventListener('click', () => {
+            p1.innerHTML = 'Modificar';
+
+            p2.style.backgroundColor = "red";
+
+            p3.classList.toggle('oculto');
+            
+        })
+
+    </script>
+</body>

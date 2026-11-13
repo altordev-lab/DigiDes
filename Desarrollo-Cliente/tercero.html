@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejercicio 3</title>
+    <script>
+        function cambiarColor() 
+        {
+            let frase = document.h2;
+            if (frase.style.color === "green"){
+                frase.style.color = "black";
+            }
+            else {
+                frase.style.color = "green";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2 id="1" style="color:black">Primera frase</h2>
+    <button onclick="cambiarColor('1')">Cambiar Color</button>
+    
+    
+    <h2 id="2" style="color:black">Segunda frase</h2>
+    <button onclick="cambiarColor('2')">Cambiar Color</button>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practica 2</title>
+</head>
+<body>
+    <script>
+        // EJERCICIO 1
+        var radio = 5;
+        var area = 3.1416 * radio**2;
+        var longitud = 2 * 3.1416 * radio;
+
+        document.write("El área es " + area.toFixed(2));
+        document.write(" y la longitud es " + longitud.toFixed(2) + "<br>");
+
+        // EJERCICIO 2
+        var numero = 5;
+        var operador = numero > 6 ? document.write("Sí") : document.write("No");
+
+        // EJERCICIO 3
+
+        var dato = "Ronaldo" +5 + 5;
+        document.write("<br>" + dato);
+        //Escribe 'Ronaldo55' porque 'Ronaldo' es string y toma lo siguiente como string también.
+
+        var dato = 5 +5 + "Ronaldo";
+        document.write("<br>" + dato + "<br>");
+        //Escribe '10Ronaldo' porque toma correctamente los 5 como números y luego concatena 'Ronaldo'.
+
+        // EJERCICIO 4
+
+        var numero = 3;
+        var texto = "HOLA";
+        var objeto = ["leche", "harina", "huevos"];
+
+        document.write(typeof(numero) + " " + typeof(texto) + " " + typeof(objeto) + " ")
+
+
+    </script>
+</body>
+</html>

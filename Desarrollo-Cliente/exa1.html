@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Manipulación del DOM</title>
+    <style>
+        /* Clase útil para la pista del classList.toggle */
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <p id="parrafo1">Este es el primer párrafo. Cambiará mi texto.</p>
+    <p id="parrafo2">Este es el segundo párrafo. Cambiará mi color de fondo.</p>
+    <p id="parrafo3">Este es el tercer párrafo. Apareceré y desapareceré.</p>
+
+    <button id="btnModificar">Modificar Párrafos</button>
+
+    <script>
+        // 1. Seleccionamos los elementos del DOM utilizando sus IDs
+        const p1 = document.getElementById('parrafo1');
+        const p2 = document.getElementById('parrafo2');
+        const p3 = document.getElementById('parrafo3');
+        const boton = document.getElementById('btnModificar');
+
+        // 2. Escuchamos el evento de click en el botón
+        boton.addEventListener('click', () => {
+            
+            // Párrafo 1: Cambia su texto usando innerHTML
+            p1.innerHTML = "<strong>¡Texto modificado con éxito!</strong>";
+
+            // Párrafo 2: Cambia su color de fondo usando style.backgroundColor
+            if (p2.style.backgroundColor === 'yellow') {
+                p2.style.backgroundColor = '';
+            } else {
+                p2.style.backgroundColor = 'yellow';
+            }
+
+            // Párrafo 3: Se oculta/muestra usando classList.toggle() y la clase CSS '.oculto'
+            p3.classList.toggle('oculto');
+        });
+    </script>
+
+</body>
+</html>

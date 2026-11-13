@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio Fibonacci</title>
+</head>
+<body>
+
+    <h2>Sucesión de Fibonacci</h2>
+
+    <form id="formulario">
+        <input type="number" id="cifra" placeholder="Introduce un número"/> 
+        <button type="submit">Aceptar</button>
+    </form>
+
+    <p id="espacio"></p>
+
+    <script>
+        const formulario = document.getElementById("formulario");
+
+        formulario.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            function fibonacci (num) {
+                if (num == 0) { 
+                    return 0;
+                } else if (num == 1){ 
+                    return 1;
+                } else {
+                    return (fibonacci(num - 1) + fibonacci(num - 2));
+                }
+            }
+
+            var numero = fibonacci(document.getElementById("cifra").value.trim());
+            espacio.innerHTML = numero;
+        })
+
+    </script>
+</body>
+</html>

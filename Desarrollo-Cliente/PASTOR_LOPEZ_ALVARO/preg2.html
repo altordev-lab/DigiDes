@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Examen - Pregunta 2</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+
+    <form id="fml">
+
+        <label for="nombre">Nombre: </label> 
+        <input type="text" id="nombre"/> <br><br>
+
+        <label for="correo">Correo electrónico: </label>
+        <input type="text" id="correo"/> <br><br>
+
+        <label for="edad">Edad: </label>
+        <input type="number" id="edad"/> <br><br>
+
+        <button type="submit">Enviar</button> <br><br>
+
+    </form>
+
+    <div id="msj"></div>
+
+    <script>
+
+        // Declaramos las variables para controlar el formulario y el div.
+        const formulario = document.getElementById("fml");
+        const mensaje = document.getElementById("msj");
+
+        // Creamos el evento escuchador para cuando se envíe el formulario.
+        formulario.addEventListener("submit", function(event) {
+
+            // Evitamos que se envíe el formulario por defecto.
+            event.preventDefault();
+
+            // Creamos las variables para controlar la entrada de datos.
+            var nombre = document.getElementById("nombre").value.trim();
+            var email = document.getElementById("correo").value.trim();
+            var edad = document.getElementById("edad").value.trim();
+
+            // Comprobamos que ningún campo queda vacío, y en tal caso, damos un error.
+            if (nombre === "" || email === "" || edad === "") {
+                mensaje.textContent = "Debes rellenar todos los campos.";
+                mensaje.style.color = "red";
+                return;
+            }
+
+            // Comprobamos que el correo contenga un @, y si no es así, damos un error.
+            if (!email.match("@")) { 
+                mensaje.textContent = "El correo debe contener un @.";
+                mensaje.style.color = "red";
+                return;
+            }
+
+            // Comprobamos que la edad sea mayor que 18, y si no lo es, damos un error.
+            if (edad < 18 || isNaN(edad)) {
+                mensaje.textContent = "La edad debe ser 18 o superior.";
+                mensaje.style.color = "red";
+                return;
+            }
+
+            //Si no se da ninguno de los casos anteriores, se indica que el formulario es correcto.
+            mensaje.textContent = "Formulario correcto.";
+            mensaje.style.color = "green";
+        });
+
+    </script>
+</body>
+</html>

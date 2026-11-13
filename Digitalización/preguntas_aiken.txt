@@ -1,0 +1,139 @@
+1. La digitalización:
+A. Aumenta la complejidad en la gestión de los datos.
+B. Mejora la productividad en la empresa.
+C. Dificulta las relaciones entre trabajadores.
+D. Aumenta los costes.
+ANSWER: B
+
+2. El almacenamiento de datos en la nube es una ventaja para las empresas porque:
+A. Permite el acceso a los datos desde cualquier lugar.
+B. El almacenamiento es ilimitado para cualquier tipo de datos.
+C. La información almacenada es completamente segura y nunca puede ser vulnerada.
+D. La única diferencia entre las diferentes empresas que ofrecen estos servicios es la velocidad de acceso a los datos.
+ANSWER: A
+
+3. La tecnología:
+A. Reduce la colaboración entre empleados.
+B. Provoca la desaparición de trabajos cualificados.
+C. Permite la creación de nuevas profesiones relacionadas con su gestión.
+D. Aumenta las tareas rutinarias.
+ANSWER: C
+
+4. Las herramientas digitales que se enfocan en el control y la automatización de los procesos físicos en entornos industriales y comerciales son conocidas como:
+A. Tecnologías de la información (IT).
+B. Internet de las cosas (IoT).
+C. Tecnologías de la operación (OT).
+D. Realidad virtual (RV).
+ANSWER: C
+
+5. Es un ejemplo de tecnología de la información:
+A. Un lavavajillas industrial.
+B. Un exprimidor.
+C. Una aplicación de reservas online.
+D. Un termostato.
+ANSWER: C
+
+6. La tendencia actual en las tecnologías IT y OT es:
+A. La IT y OT diferenciadas.
+B. La convergencia gradual de IT y OT.
+C. La integración completa de IT y OT.
+D. La ciberseguridad.
+ANSWER: C
+
+7. La inteligencia artificial:
+A. Aumenta los costes de producción.
+B. Sustituye tareas repetitivas y rutinarias.
+C. No requiere supervisión humana.
+D. Está libre de ataques informáticos.
+ANSWER: B
+
+8. El departamento que identifica oportunidades para aprovechar nuevas tecnologías y tendencias digitales se denomina:
+A. Desarrollo Web y Multimedia.
+B. Desarrollo de Software.
+C. Innovación y Estrategia Digital.
+D. Seguridad de la Información.
+ANSWER: C
+
+9. ¿Cuál de los siguientes aspectos organizativos se ve afectados por la personalización de los productos y servicios?
+A. La toma de decisiones informadas.
+B. El mantenimiento predictivo.
+C. La experiencia del cliente.
+D. La seguridad integral.
+ANSWER: C
+
+10. Las OT:
+A. Recopilan información y analizan datos.
+B. Emplean software, redes y aplicaciones informáticas.
+C. Solo se emplean en entornos industriales.
+D. Tienen ciclos de vida más cortos que las IT.
+ANSWER: C
+
+11. ¿Cuál de las siguientes tecnologías no es mencionada como base de la digitalización industrial?
+A. Impresión 3D.
+B. Nanotecnología.
+C. Cadenas de bloques (blockchain).
+D. Procesamiento de alimentos.
+ANSWER: D
+
+12. ¿Qué tres factores son comunes en las empresas que se digitalizan?
+A. Velocidad, rendimiento y ahorro.
+B. Agilidad, flexibilidad y eficiencia.
+C. Automatización, virtualización y descentralización.
+D. Productividad, innovación y conectividad.
+ANSWER: B
+
+13. ¿Qué tipo de automatización utiliza la inteligencia artificial para adaptarse a las situaciones, sin intervención humana?
+A. Automatización fija.
+B. Automatización programable.
+C. Automatización adaptativa.
+D. Automatización de control de procesos.
+ANSWER: C
+
+14. ¿Qué ventaja aporta la digitalización al departamento de recursos humanos, según lo estudiado en este capítulo?
+A. Aumenta la cantidad de empleados contratados.
+B. Permite automatizar las preguntas frecuentes de los trabajadores.
+C. Mejora la colaboración interdepartamental.
+D. Reduce el coste de los salarios.
+ANSWER: B
+
+15. ¿Cuál es el objetivo principal de implementar chatbots en el servicio al cliente?
+A. Eliminar el contacto humano.
+B. Reducir los costes operativos al mínimo.
+C. Aumentar las tasas de resolución en el primer contacto.
+D. Ampliar la base de datos de los clientes.
+ANSWER: C
+
+16. ¿Cuál de los siguientes es un beneficio de la digitalización industrial?
+A. Incremento del número de empleados.
+B. Mayor generación de desperdicios.
+C. Colaboración más amplia entre clientes, productores y proveedores.
+D. Reducción de la sostenibilidad.
+ANSWER: C
+
+17. Según el capítulo, ¿qué herramienta es útil para mejorar la colaboración interdepartamental?
+A. Trello.
+B. Sticky.
+C. Blockchain.
+D. Realidad aumentada.
+ANSWER: A
+
+18. De las siguientes opciones, ¿cuál es una forma de medir la calidad de los productos tras la transformación digital?
+A. Comparar los beneficios con los gastos totales.
+B. Analizar la puntualidad en una empresa de autobuses.
+C. Revisar la cantidad de empleados contratados.
+D. Verificar el número de reuniones realizadas.
+ANSWER: B
+
+19. Señala uno de los principales beneficios de implementar chatbots en el departamento de recursos humanos:
+A. Aumentar la producción en las líneas de ensamblaje.
+B. Responder a preguntas comunes sobre permisos, vacaciones y seguros.
+C. Crear productos innovadores en la empresa.
+D. Diseñar estrategias de marketing más efectivas.
+ANSWER: B
+
+20. ¿Qué característica diferencia la automatización flexible de la programable?
+A. Utiliza IA y aprendizaje automático para adaptarse, sin intervención humana.
+B. Es menos costosa y más rápida de implementar.
+C. Requiere ajustes manuales para cada nueva tarea.
+D. Se limita a los procesos lineales y secuenciales.
+ANSWER: A

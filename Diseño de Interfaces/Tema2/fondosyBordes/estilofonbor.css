@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.blog-post-card {
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    text-align: center;
+    border-color: black;
+}
+
+.post-img {
+    border-image: black;
+    border-radius: 10px;
+}
+
+.inscribase {
+    color: black;
+    background-color: green;
+    margin: 20px 30px;
+    border-radius: 8px;
+    display: block;
+}

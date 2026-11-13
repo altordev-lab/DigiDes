@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <img id="foto" src="imagen1.jpg" onclick="cambiarImagen()">
+    <script>
+        function cambiarImagen() {
+            // Esta variable guarda y controla la imagen directamente
+            let imagen = document.getElementById("foto");
+
+            if (imagen.src.endsWith("imagen1.jpg")) {
+                imagen.src = "imagen2.jpg";
+            } 
+            else if (imagen.src.endsWith("imagen2.jpg")) {
+                imagen.src = "imagen3.jpg";
+            } 
+            else if (imagen.src.endsWith("imagen3.jpg")) {
+                imagen.src = "imagen4.jpg";
+            } 
+            else {
+                imagen.src = "imagen1.jpg";
+            }
+        }
+    </script>
+</body>
+</html>
